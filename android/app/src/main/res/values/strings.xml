@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">mad_assignment_2</string>
+    <string name="facebook_app_id">263009622380976</string>
+    <string name="fb_login_protocol_scheme">fb263009622380976</string>
+
+</resources>
