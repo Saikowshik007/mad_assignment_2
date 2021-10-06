@@ -61,7 +61,7 @@ class Authentication{
         ));
       }
     }
-    void signout(){
+    void signout()async{
     FirebaseAuth.instance.signOut();
     }
     void anonymous() async {
@@ -168,7 +168,7 @@ class Authentication{
 
 
   }
-  List get_data(String user,context){
+  Future<List> get_data(String user,context)async{
     List<String>l=[];
     _storage.doc(user).get().then((DocumentSnapshot documentSnapshot) {
 

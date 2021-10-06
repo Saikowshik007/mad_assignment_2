@@ -23,7 +23,8 @@ import '../main.dart';
       Widget build(BuildContext context) {
         return Scaffold(
         body: Center(
-        child: ListView (
+        child: Column (
+          mainAxisAlignment: MainAxisAlignment.center,
             children:<Widget>[
               Container(
                   alignment: Alignment.topCenter,
